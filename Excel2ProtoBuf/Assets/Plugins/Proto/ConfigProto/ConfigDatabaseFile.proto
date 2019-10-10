@@ -1,0 +1,7 @@
+package com.SnoopyGame.proto;
+
+ import "buff.proto";
+
+message ConfigDatabase {
+	required buffConfigData m_buff_data = 1;
+}

@@ -1,0 +1,11 @@
+package com.SnoopyGame.proto;
+
+message buffConfig{
+	required int32 id = 1;		//主键id
+	required string buff_name = 2;		//buff添加属性
+	required string buff_value = 3;		//buff添加的属性值
+}
+
+message buffConfigData{
+	repeated buffConfig config = 1;
+}
