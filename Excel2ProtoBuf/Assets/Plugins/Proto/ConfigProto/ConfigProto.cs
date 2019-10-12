@@ -61,6 +61,7 @@ namespace com.SnoopyGame.proto
 }
 // Generated from: ConfigDatabaseFile.proto
 // Note: requires additional types generated from: buff.proto
+// Note: requires additional types generated from: test.proto
 namespace com.SnoopyGame.proto
 {
   [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"ConfigDatabase")]
@@ -75,6 +76,65 @@ namespace com.SnoopyGame.proto
       get { return _m_buff_data; }
       set { _m_buff_data = value; }
     }
+    private com.SnoopyGame.proto.testConfigData _m_test_data;
+    [global::ProtoBuf.ProtoMember(2, IsRequired = true, Name=@"m_test_data", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    public com.SnoopyGame.proto.testConfigData m_test_data
+    {
+      get { return _m_test_data; }
+      set { _m_test_data = value; }
+    }
+    private global::ProtoBuf.IExtension extensionObject;
+    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
+  }
+  
+}
+// Generated from: test.proto
+namespace com.SnoopyGame.proto
+{
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"testConfig")]
+  public partial class testConfig : global::ProtoBuf.IExtensible
+  {
+    public testConfig() {}
+    
+    private int _id;
+    [global::ProtoBuf.ProtoMember(1, IsRequired = true, Name=@"id", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    public int id
+    {
+      get { return _id; }
+      set { _id = value; }
+    }
+    private string _buff_name;
+    [global::ProtoBuf.ProtoMember(2, IsRequired = true, Name=@"buff_name", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    public string buff_name
+    {
+      get { return _buff_name; }
+      set { _buff_name = value; }
+    }
+    private string _buff_value;
+    [global::ProtoBuf.ProtoMember(3, IsRequired = true, Name=@"buff_value", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    public string buff_value
+    {
+      get { return _buff_value; }
+      set { _buff_value = value; }
+    }
+    private global::ProtoBuf.IExtension extensionObject;
+    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
+  }
+  
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"testConfigData")]
+  public partial class testConfigData : global::ProtoBuf.IExtensible
+  {
+    public testConfigData() {}
+    
+    private readonly global::System.Collections.Generic.List<com.SnoopyGame.proto.testConfig> _config = new global::System.Collections.Generic.List<com.SnoopyGame.proto.testConfig>();
+    [global::ProtoBuf.ProtoMember(1, Name=@"config", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    public global::System.Collections.Generic.List<com.SnoopyGame.proto.testConfig> config
+    {
+      get { return _config; }
+    }
+  
     private global::ProtoBuf.IExtension extensionObject;
     global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }

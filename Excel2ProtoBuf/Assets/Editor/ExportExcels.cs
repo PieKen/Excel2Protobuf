@@ -432,7 +432,7 @@ public class Excel2ProtoTool
     /// <summary>
     /// 导出CS文件临时路径（放在editor下，方便序列化数据）
     /// </summary>
-    public const string scriptsProtoConfigProto = "Plugins/Proto";
+    public const string scriptsProtoConfigProto = "Plugins/Proto/ConfigProto";
 
     /// <summary>
     /// 忽略配置列表
@@ -831,7 +831,7 @@ public class Excel2ProtoTool
                     type = "int32";
                 else if (type == "long")
                     type = "int64";
-                SaveValue += "\trequired " + type + " " + valueName + " = " + (j + 1) + ";\t\t//" + explain + "\n";
+                SaveValue += "\trequired " + type + " " + valueName + " = " + (j) + ";\t\t//" + explain + "\n";
             }
 
             SaveValue += "}\n\n";

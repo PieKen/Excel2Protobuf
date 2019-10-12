@@ -15,7 +15,10 @@ public class test : MonoBehaviour {
         //获取配置
         buffConfig cf = CfgMgr.GetCfg().Getbuff(1);
         Debug.LogError(cf.buff_name);
-	}
+
+        testConfig tc = CfgMgr.GetCfg().Gettest(1);
+        Debug.LogError(tc.buff_name);
+    }
 	
 	// Update is called once per frame
 	void Update () {

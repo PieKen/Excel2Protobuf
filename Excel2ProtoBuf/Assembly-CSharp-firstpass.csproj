@@ -154,10 +154,10 @@
     <Compile Include="Assets\Plugins\SysUtil.cs" />
     <None Include="Assets\Plugins\protobuf-net\Web\TODO.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>E:/testPro/Excel2ProtoBuf/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>E:/Documents/GitHub/Excel2Protobuf/Excel2ProtoBuf/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/testPro/Excel2ProtoBuf/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/Documents/GitHub/Excel2Protobuf/Excel2ProtoBuf/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity2017/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

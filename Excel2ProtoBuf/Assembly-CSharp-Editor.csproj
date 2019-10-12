@@ -62,16 +62,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\BaseEditor.cs" />
-    <Compile Include="Assets\Editor\Excel2ProtoBufTool.cs" />
     <Compile Include="Assets\Editor\ExportExcels.cs" />
     <Compile Include="Assets\Editor\ProtoTool\descriptor.cs" />
     <Compile Include="Assets\Editor\ProtoTool\InputFileLoader.cs" />
     <Compile Include="Assets\Editor\ProtoTool\ProtoGenAuto.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>E:/testPro/Excel2ProtoBuf/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>E:/Documents/GitHub/Excel2Protobuf/Excel2ProtoBuf/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/testPro/Excel2ProtoBuf/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/Documents/GitHub/Excel2Protobuf/Excel2ProtoBuf/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity2017/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -317,16 +316,13 @@
       <HintPath>C:/Program Files/Unity2017/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="EPPlus">
-      <HintPath>E:/testPro/Excel2ProtoBuf/Assets/Editor/EPPlus.dll</HintPath>
-    </Reference>
-    <Reference Include="Excel">
-      <HintPath>E:/testPro/Excel2ProtoBuf/Assets/Editor/Excel.dll</HintPath>
+      <HintPath>E:/Documents/GitHub/Excel2Protobuf/Excel2ProtoBuf/Assets/Editor/EPPlus.dll</HintPath>
     </Reference>
     <Reference Include="System.Data">
-      <HintPath>E:/testPro/Excel2ProtoBuf/Assets/Editor/System.Data.dll</HintPath>
+      <HintPath>E:/Documents/GitHub/Excel2Protobuf/Excel2ProtoBuf/Assets/Editor/System.Data.dll</HintPath>
     </Reference>
     <Reference Include="System.Drawing">
-      <HintPath>E:/testPro/Excel2ProtoBuf/Assets/Editor/System.Drawing.dll</HintPath>
+      <HintPath>E:/Documents/GitHub/Excel2Protobuf/Excel2ProtoBuf/Assets/Editor/System.Drawing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/Administrator/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>

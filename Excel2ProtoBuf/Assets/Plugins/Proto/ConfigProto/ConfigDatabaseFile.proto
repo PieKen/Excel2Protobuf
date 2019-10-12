@@ -1,7 +1,9 @@
 package com.SnoopyGame.proto;
 
  import "buff.proto";
+ import "test.proto";
 
 message ConfigDatabase {
 	required buffConfigData m_buff_data = 1;
+	required testConfigData m_test_data = 2;
 }
